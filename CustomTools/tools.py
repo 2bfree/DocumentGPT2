@@ -54,8 +54,8 @@ class ArxivTool(CustomTool):
 
 class WebSearchTool(CustomTool):
     def __init__(self):
-        # self.search = CustomSerpAPIWrapper(serpapi_api_key=st.secrets['serp_api_key'])
-        self.search = CustomSerpAPIWrapper(serpapi_api_key=st.secrets['st']['serp_api_key'])
+        self.search = CustomSerpAPIWrapper(serpapi_api_key=st.secrets['serp_api_key'])
+        # self.search = CustomSerpAPIWrapper(serpapi_api_key=st.secrets['st']['serp_api_key'])
         self.answer = ""
         self.source_dict = {}
         self.title = ""
