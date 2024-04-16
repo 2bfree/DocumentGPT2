@@ -14,3 +14,4 @@ arxiv~=1.4.7
 pymupdf~=1.22.5
 Pillow~=9.5.0
 # lxml_html_clean
+lxml[html_clean]
